@@ -1,0 +1,17 @@
+{
+  "android": {
+    "status": "Aguardando APK de release",
+    "version": "Em preparacao",
+    "publishedAt": "Nao publicado",
+    "downloadUrl": "",
+    "ctaLabel": "Download indisponivel",
+    "notes": "Assim que o APK final estiver hospedado, este botao passara a fazer o download automaticamente."
+  },
+  "ios": {
+    "status": "Em preparacao",
+    "channel": "Distribuicao futura",
+    "summary": "Sem link publico no momento",
+    "notes": "A distribuicao para iPhone ficara visivel aqui quando o fluxo oficial da Apple estiver disponivel."
+  }
+}
+

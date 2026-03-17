@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinektra Downloads</title>
+    <meta
+      name="description"
+      content="Portal de downloads do app Kinektra para Android e acompanhamento da distribuição para iPhone."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__copy">
+          <span class="eyebrow">Kinektra</span>
+          <h1>Downloads do app em um só lugar</h1>
+          <p>
+            Esta página concentra os builds disponibilizados para testes e uso
+            interno enquanto as contas oficiais de distribuição ainda estão em
+            preparação.
+          </p>
+        </div>
+        <div class="hero__panel">
+          <p class="hero__label">Como usar</p>
+          <ul class="hero__list">
+            <li>Baixe o APK Android no card correspondente.</li>
+            <li>Consulte o status do iPhone antes de compartilhar com a equipe.</li>
+            <li>Volte aqui sempre para ver a versão mais recente.</li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="status-grid" aria-label="Status dos aplicativos">
+          <article class="download-card download-card--android" id="android-card">
+            <div class="download-card__header">
+              <span class="platform-badge">Android</span>
+              <span class="status-pill" id="android-status">Carregando</span>
+            </div>
+            <h2>Build Android</h2>
+            <p class="card-text">
+              APK pronto para distribuição direta quando houver um arquivo
+              publicado.
+            </p>
+            <dl class="meta-list">
+              <div>
+                <dt>Versão</dt>
+                <dd id="android-version">-</dd>
+              </div>
+              <div>
+                <dt>Publicado em</dt>
+                <dd id="android-date">-</dd>
+              </div>
+            </dl>
+            <p class="card-note" id="android-notes">-</p>
+            <a
+              class="primary-button primary-button--disabled"
+              id="android-download"
+              href="#"
+              aria-disabled="true"
+            >
+              Download indisponível
+            </a>
+          </article>
+
+          <article class="download-card download-card--ios" id="ios-card">
+            <div class="download-card__header">
+              <span class="platform-badge">iPhone</span>
+              <span class="status-pill status-pill--outline" id="ios-status"
+                >Carregando</span
+              >
+            </div>
+            <h2>Distribuição iPhone</h2>
+            <p class="card-text">
+              A página acompanha a disponibilidade do app para iPhone até a
+              entrada no fluxo oficial da Apple.
+            </p>
+            <dl class="meta-list">
+              <div>
+                <dt>Canal</dt>
+                <dd id="ios-channel">-</dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd id="ios-summary">-</dd>
+              </div>
+            </dl>
+            <p class="card-note" id="ios-notes">-</p>
+            <div class="secondary-panel">
+              <strong>Observação</strong>
+              <p>
+                Instalação pública via site depende do fluxo de distribuição da
+                Apple. Até lá, esta área serve como painel de status.
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <section class="details">
+          <div class="details__card">
+            <h3>Atualização rápida</h3>
+            <p>
+              O conteúdo da página é controlado por
+              <code>assets/data/releases.json</code>. Assim, fica simples trocar
+              a versão exibida, adicionar a URL do APK e atualizar o texto do
+              iPhone sem mexer no layout.
+            </p>
+          </div>
+          <div class="details__card">
+            <h3>Próximos passos sugeridos</h3>
+            <p>
+              Quando o APK de release estiver pronto, basta publicar o arquivo
+              e colar o link no JSON. Para iPhone, a recomendação é migrar para
+              TestFlight ou outro fluxo oficial assim que a conta developer
+              estiver ativa.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="assets/js/app.js" defer></script>
+  </body>
+  </html>
+
