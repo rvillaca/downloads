@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kinektra Downloads</title>
+    <title>Kinektra | Neuro-Tech Solutions</title>
     <meta
       name="description"
-      content="Portal de downloads do app Kinektra para Android e acompanhamento da distribuição para iPhone."
+      content="Landing page da Kinektra com apresentacao institucional, status das plataformas e download do app Android."
     />
+    <link rel="icon" href="assets/images/logo-mark.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,109 +19,239 @@
   </head>
   <body>
     <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Kinektra home">
+          <img src="assets/images/logo-mark.png" alt="Logo Kinektra" />
+          <span class="brand__text">
+            <strong>Kinektra</strong>
+            <small>Neuro-Tech Solutions</small>
+          </span>
+        </a>
+
+        <nav class="topbar__nav" aria-label="Navegacao principal">
+          <a href="#solution">Solucao</a>
+          <a href="#therapies">Terapias</a>
+          <a href="#downloads">Downloads</a>
+        </nav>
+
+        <a class="ghost-button" href="#downloads">Baixar app</a>
+      </header>
+
       <header class="hero">
-        <div class="hero__copy">
-          <span class="eyebrow">Kinektra</span>
-          <h1>Downloads do app em um só lugar</h1>
+        <div class="hero__copy surface-card">
+          <span class="eyebrow">Neuro-Tech Solutions</span>
+          <h1>Uma experiencia de apresentacao e distribuicao mais pronta para clientes.</h1>
           <p>
-            Esta página concentra os builds disponibilizados para testes e uso
-            interno enquanto as contas oficiais de distribuição ainda estão em
-            preparação.
+            A Kinektra agora pode ser apresentada em uma landing page mais clara,
+            mais institucional e mais convincente, sem perder o acesso rapido ao
+            aplicativo Android e ao status das outras plataformas.
           </p>
-        </div>
-        <div class="hero__panel">
-          <p class="hero__label">Como usar</p>
-          <ul class="hero__list">
-            <li>Baixe o APK Android no card correspondente.</li>
-            <li>Consulte o status do iPhone antes de compartilhar com a equipe.</li>
-            <li>Volte aqui sempre para ver a versão mais recente.</li>
+
+          <div class="hero__actions">
+            <a class="primary-button" href="#downloads">Baixar Android</a>
+            <a class="secondary-button" href="#solution">Conhecer a solucao</a>
+          </div>
+
+          <ul class="hero__highlights">
+            <li>TENS e PENS organizados em uma jornada mais facil de explicar.</li>
+            <li>Protocolos, operacao e distribuicao em uma experiencia coerente.</li>
+            <li>Portal preparado para demonstracao, onboarding e compartilhamento.</li>
           </ul>
+        </div>
+
+        <div class="hero__visual surface-card">
+          <div class="brand-window">
+            <img
+              class="brand-window__signature"
+              src="assets/images/logo-signature.png"
+              alt="Identidade visual Kinektra Neuro-Tech Solutions"
+            />
+          </div>
+
+          <div class="hero__metrics">
+            <article class="metric-card">
+              <span>Foco</span>
+              <strong>Terapias TENS e PENS</strong>
+              <p>Uma narrativa mais simples para apresentar o produto e seus modos.</p>
+            </article>
+            <article class="metric-card">
+              <span>Distribuicao</span>
+              <strong>Android disponivel agora</strong>
+              <p>Instalacao centralizada para equipe, parceiros e validacoes iniciais.</p>
+            </article>
+          </div>
         </div>
       </header>
 
       <main class="content">
-        <section class="status-grid" aria-label="Status dos aplicativos">
-          <article class="download-card download-card--android" id="android-card">
-            <div class="download-card__header">
-              <span class="platform-badge">Android</span>
-              <span class="status-pill" id="android-status">Carregando</span>
-            </div>
-            <h2>Build Android</h2>
-            <p class="card-text">
-              APK pronto para distribuição direta quando houver um arquivo
-              publicado.
+        <section class="intro-grid" id="solution" aria-label="Proposta de valor">
+          <article class="info-card surface-card">
+            <span class="info-card__kicker">Apresentacao</span>
+            <h2>Uma landing que fala de produto, nao apenas de arquivo.</h2>
+            <p>
+              Em vez de parecer somente um ponto de download, a pagina passa a
+              contextualizar a Kinektra como uma solucao de neurotecnologia com
+              identidade visual, linguagem objetiva e melhor leitura comercial.
             </p>
-            <dl class="meta-list">
-              <div>
-                <dt>Versão</dt>
-                <dd id="android-version">-</dd>
-              </div>
-              <div>
-                <dt>Publicado em</dt>
-                <dd id="android-date">-</dd>
-              </div>
-            </dl>
-            <p class="card-note" id="android-notes">-</p>
-            <a
-              class="primary-button primary-button--disabled"
-              id="android-download"
-              href="#"
-              aria-disabled="true"
-            >
-              Download indisponível
-            </a>
           </article>
 
-          <article class="download-card download-card--ios" id="ios-card">
-            <div class="download-card__header">
-              <span class="platform-badge">iPhone</span>
-              <span class="status-pill status-pill--outline" id="ios-status"
-                >Carregando</span
-              >
-            </div>
-            <h2>Distribuição iPhone</h2>
-            <p class="card-text">
-              A página acompanha a disponibilidade do app para iPhone até a
-              entrada no fluxo oficial da Apple.
+          <article class="info-card surface-card">
+            <span class="info-card__kicker">Clientes e parceiros</span>
+            <h2>Boa para reunioes, demos e compartilhamento rapido.</h2>
+            <p>
+              A mesma pagina pode ser usada para demonstrar o posicionamento da
+              marca, explicar brevemente o app e entregar a versao Android mais
+              recente sem depender do repositorio principal.
             </p>
-            <dl class="meta-list">
-              <div>
-                <dt>Canal</dt>
-                <dd id="ios-channel">-</dd>
-              </div>
-              <div>
-                <dt>Status</dt>
-                <dd id="ios-summary">-</dd>
-              </div>
-            </dl>
-            <p class="card-note" id="ios-notes">-</p>
-            <div class="secondary-panel">
-              <strong>Observação</strong>
-              <p>
-                Instalação pública via site depende do fluxo de distribuição da
-                Apple. Até lá, esta área serve como painel de status.
-              </p>
-            </div>
+          </article>
+
+          <article class="info-card surface-card info-card--accent">
+            <span class="info-card__kicker">Experiencia</span>
+            <h2>Clareza visual para transmitir mais confianca.</h2>
+            <p>
+              O desenho prioriza entendimento rapido, boa leitura em desktop e
+              mobile e um tom mais premium para apresentacoes institucionais.
+            </p>
           </article>
         </section>
 
-        <section class="details">
-          <div class="details__card">
-            <h3>Atualização rápida</h3>
+        <section class="therapy-section" id="therapies">
+          <div class="section-heading">
+            <span class="eyebrow">Terapias</span>
+            <h2>Uma forma mais facil de explicar o que a plataforma entrega.</h2>
             <p>
-              O conteúdo da página é controlado por
-              <code>assets/data/releases.json</code>. Assim, fica simples trocar
-              a versão exibida, adicionar a URL do APK e atualizar o texto do
-              iPhone sem mexer no layout.
+              A landing agora deixa mais claro onde a Kinektra se encaixa: como
+              um app voltado para operacao, demonstracao e distribuicao de
+              terapias e protocolos de neuroestimulacao.
             </p>
           </div>
-          <div class="details__card">
-            <h3>Próximos passos sugeridos</h3>
+
+          <div class="therapy-grid">
+            <article class="therapy-card surface-card">
+              <span class="therapy-tag">TENS</span>
+              <h3>Estimulação transcutânea com linguagem acessivel.</h3>
+              <p>
+                A apresentacao da plataforma pode destacar a organizacao dos
+                modos, o uso de protocolos salvos e a navegacao mais amigavel na
+                experiencia do aplicativo.
+              </p>
+            </article>
+
+            <article class="therapy-card surface-card">
+              <span class="therapy-tag">PENS</span>
+              <h3>Fluxo preparado para evoluir com distribuicao oficial.</h3>
+              <p>
+                O portal ajuda a comunicar o produto hoje, enquanto a camada de
+                distribuicao para iPhone continua evoluindo para os canais
+                oficiais da Apple.
+              </p>
+            </article>
+
+            <article class="therapy-card therapy-card--accent">
+              <span class="therapy-tag therapy-tag--light">Portal</span>
+              <h3>Marca, produto e download no mesmo lugar.</h3>
+              <p>
+                A pagina concentra identidade visual, proposta de valor e acesso
+                ao app, o que deixa a demonstracao mais consistente para clientes
+                em avaliacao inicial.
+              </p>
+              <a class="secondary-button secondary-button--light" href="#downloads">
+                Ver downloads
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <section class="download-section" id="downloads">
+          <div class="section-heading">
+            <span class="eyebrow">Downloads</span>
+            <h2>Instalacao centralizada e status por plataforma.</h2>
             <p>
-              Quando o APK de release estiver pronto, basta publicar o arquivo
-              e colar o link no JSON. Para iPhone, a recomendação é migrar para
-              TestFlight ou outro fluxo oficial assim que a conta developer
-              estiver ativa.
+              O Android segue disponivel para download direto, enquanto o iPhone
+              permanece acompanhado por este mesmo portal.
+            </p>
+          </div>
+
+          <div class="status-grid" aria-label="Status dos aplicativos">
+            <article class="download-card download-card--android" id="android-card">
+              <div class="download-card__header">
+                <span class="platform-badge">Android</span>
+                <span class="status-pill" id="android-status">Carregando</span>
+              </div>
+              <h3>Build Android</h3>
+              <p class="card-text">
+                Versao pronta para instalacao direta e compartilhamento em demos,
+                testes internos e validacoes iniciais.
+              </p>
+              <dl class="meta-list">
+                <div>
+                  <dt>Versao</dt>
+                  <dd id="android-version">-</dd>
+                </div>
+                <div>
+                  <dt>Publicado em</dt>
+                  <dd id="android-date">-</dd>
+                </div>
+              </dl>
+              <p class="card-note" id="android-notes">-</p>
+              <a
+                class="primary-button primary-button--disabled"
+                id="android-download"
+                href="#"
+                aria-disabled="true"
+              >
+                Download indisponivel
+              </a>
+            </article>
+
+            <article class="download-card download-card--ios" id="ios-card">
+              <div class="download-card__header">
+                <span class="platform-badge">iPhone</span>
+                <span class="status-pill status-pill--outline" id="ios-status">
+                  Carregando
+                </span>
+              </div>
+              <h3>Distribuicao iPhone</h3>
+              <p class="card-text">
+                Este card ajuda a acompanhar a evolucao da distribuicao oficial
+                enquanto a pagina continua servindo como base de apresentacao.
+              </p>
+              <dl class="meta-list">
+                <div>
+                  <dt>Canal</dt>
+                  <dd id="ios-channel">-</dd>
+                </div>
+                <div>
+                  <dt>Status</dt>
+                  <dd id="ios-summary">-</dd>
+                </div>
+              </dl>
+              <p class="card-note" id="ios-notes">-</p>
+              <div class="secondary-panel">
+                <strong>Observacao</strong>
+                <p>
+                  Assim que o fluxo oficial estiver pronto, este espaco pode
+                  apontar para o canal publico escolhido.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="details" aria-label="Complementos da pagina">
+          <div class="details__card surface-card">
+            <h3>Boa para demonstrar e para instalar</h3>
+            <p>
+              A pagina foi organizada para funcionar bem em conversas comerciais,
+              reunioes de apresentacao e compartilhamento pratico do aplicativo.
+            </p>
+          </div>
+          <div class="details__card surface-card">
+            <h3>Visual mais forte sem perder simplicidade</h3>
+            <p>
+              A identidade da Kinektra fica mais presente com o uso da logo do
+              app, de uma hero section mais marcante e de uma hierarquia de
+              conteudo mais clara para o visitante.
             </p>
           </div>
         </section>
@@ -129,5 +260,4 @@
 
     <script src="assets/js/app.js" defer></script>
   </body>
-  </html>
-
+</html>
