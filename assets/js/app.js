@@ -28,12 +28,12 @@ function renderAndroid(android) {
   if (hasDownload) {
     link.href = android.downloadUrl;
     link.removeAttribute("aria-disabled");
-    link.classList.remove("primary-button--disabled");
+    link.classList.remove("button--disabled");
     link.textContent = android.ctaLabel || "Baixar APK";
   } else {
     link.href = "#";
     link.setAttribute("aria-disabled", "true");
-    link.classList.add("primary-button--disabled");
+    link.classList.add("button--disabled");
     link.textContent = android.ctaLabel || "Download indisponivel";
   }
 }
@@ -61,4 +61,3 @@ function setText(id, value) {
 }
 
 loadReleases();
-
