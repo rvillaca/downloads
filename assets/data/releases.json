@@ -1,16 +1,16 @@
 {
   "android": {
-    "status": "Disponivel",
+    "status": "Release atual",
     "version": "1.0.0+1",
-    "publishedAt": "17 de marco de 2026",
+    "publishedAt": "23 de marco de 2026",
     "downloadUrl": "downloads/app-release.apk",
-    "ctaLabel": "Baixar APK",
-    "notes": "Build Android de release publicado no portal para instalacao direta."
+    "ctaLabel": "Baixar APK Android",
+    "notes": "Build Android mais recente da Kinektra, publicado para distribuicao direta com a nova iteracao de interface e os ajustes do protocolo BLE de status."
   },
   "ios": {
-    "status": "Em preparacao",
-    "channel": "Distribuicao futura",
+    "status": "Roadmap ativo",
+    "channel": "Canal oficial em preparacao",
     "summary": "Sem link publico no momento",
-    "notes": "A distribuicao para iPhone ficara visivel aqui quando o fluxo oficial da Apple estiver disponivel."
+    "notes": "A distribuicao para iPhone sera publicada neste mesmo portal assim que o fluxo oficial da Apple estiver disponivel."
   }
 }
