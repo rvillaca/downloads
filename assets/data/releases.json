@@ -2,10 +2,10 @@
   "android": {
     "status": "Acesso parceiro",
     "version": "1.0.0+1",
-    "publishedAt": "23 de março de 2026",
+    "publishedAt": "24 de março de 2026",
     "downloadUrl": "downloads/app-release.apk",
     "ctaLabel": "Baixar build Android",
-    "notes": "Build Android atual da Kinektra, disponibilizado para demonstrações, testes acompanhados e distribuição controlada do aplicativo."
+    "notes": "Build Android atual da Kinektra com popup arrastavel de parada, dialog para o codigo 111 da chave seletora e distribuicao controlada do aplicativo."
   },
   "ios": {
     "status": "Em preparação",
