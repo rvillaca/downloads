@@ -3,401 +3,634 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kinektra | TENS, PENS e Neuro-Orteses</title>
+    <title>
+      Kinektra | Tecnologia terapêutica com hardware, firmware e software
+      clínico
+    </title>
     <meta
       name="description"
-      content="Kinektra é uma marca tech focada em TENS, PENS e Neuro-Orteses, unindo hardware terapêutico, software clínico e distribuição digital."
+      content="Site institucional da Kinektra, medtech em construção focada em eletroestimulação, software clínico, firmware e protocolos terapêuticos com controle por aplicativo."
     />
+    <meta
+      property="og:title"
+      content="Kinektra | Tecnologia terapêutica com arquitetura de produto"
+    />
+    <meta
+      property="og:description"
+      content="Hardware terapêutico, firmware, app mobile e protocolos inteligentes em um ecossistema medtech premium."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta
+      property="og:image"
+      content="assets/images/logo-signature.png"
+    />
+    <meta name="theme-color" content="#081a25" />
     <link rel="icon" href="assets/images/logo-mark.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&amp;family=Sora:wght@400;500;600;700;800&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <div class="site-bg"></div>
-    <div class="page-shell">
-      <header class="topbar">
+    <a class="skip-link" href="#conteudo">Pular para o conteudo principal</a>
+    <div class="page-aura" aria-hidden="true"></div>
+    <div class="page-grid" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <div class="header-shell">
         <a class="brand" href="#top" aria-label="Kinektra">
-          <img src="assets/images/logo-mark.png" alt="Logo Kinektra" />
+          <img src="assets/images/logo-mark.png" alt="Simbolo da marca Kinektra" />
           <span class="brand__copy">
             <strong>Kinektra</strong>
-            <small>Therapeutic Tech</small>
+            <small>Therapeutic Technology Platform</small>
           </span>
         </a>
 
-        <nav class="topbar__nav" aria-label="Navegação principal">
-          <a href="#manifesto">Manifesto</a>
-          <a href="#portfolio">Portfólio</a>
-          <a href="#future">Futuro</a>
-          <a href="#execution">Execução</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          Menu
+        </button>
+
+        <nav
+          class="site-nav"
+          id="site-nav"
+          aria-label="Navegacao principal"
+          data-nav
+        >
+          <a href="#empresa">Empresa</a>
+          <a href="#produto">Produto</a>
+          <a href="#modos">Capacidades</a>
+          <a href="#software">Software</a>
+          <a href="#download">Download</a>
+          <a href="#contato">Contato</a>
         </nav>
 
-        <a class="button button--ghost" href="#access">Acesso privado</a>
-      </header>
+        <div class="header-actions">
+          <a class="button button--ghost" href="#download">Central de releases</a>
+          <a class="button button--primary" href="#contato">Falar com a Kinektra</a>
+        </div>
+      </div>
+    </header>
 
-      <main id="top">
-        <section class="hero">
-          <div class="hero__content">
-            <span class="section-label">Medtech Brand in Motion</span>
-            <h1>Estamos construindo uma marca capaz de mudar a leitura do mercado sobre TENS, PENS e Neuro-Orteses.</h1>
-            <p class="hero__lead">
-              A Kinektra está sendo desenhada como uma marca tech focada em
-              dispositivos terapêuticos, software clínico e experiência
-              digital. A proposta é desenvolver um ecossistema capaz de unir
-              engenharia, interface, distribuição e narrativa de produto em
-              torno de uma visão clara: reposicionar a tecnologia terapêutica
-              como categoria de alto valor, com design de produto, linguagem de
-              marca e ambição suficientes para deixar de parecer equipamento
-              comoditizado e passar a parecer plataforma de próxima geração.
+    <main id="conteudo">
+      <section class="hero section-shell">
+        <div class="hero__copy" data-reveal>
+          <span class="eyebrow">Medtech premium em construcao</span>
+          <h1>
+            Tecnologia terapêutica com linguagem de produto, controle por
+            software e arquitetura pronta para evoluir.
+          </h1>
+          <p class="hero__lead">
+            A Kinektra está construindo um ecossistema que conecta dispositivo
+            físico, firmware, aplicativo mobile e protocolos inteligentes em uma
+            experiência única. O objetivo não é apenas operar eletroestimulação,
+            mas elevar a forma como a categoria é percebida, implementada e
+            distribuída.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#produto">Explorar a plataforma</a>
+            <a class="button button--secondary" href="#download">Ver downloads</a>
+          </div>
+
+          <div class="hero__signals" aria-label="Pilares principais">
+            <article class="signal-card">
+              <span>Produto</span>
+              <strong>Hardware, firmware e app no mesmo desenho</strong>
+            </article>
+            <article class="signal-card">
+              <span>Operacao</span>
+              <strong>BLE, telemetria e sessao assistida por software</strong>
+            </article>
+            <article class="signal-card">
+              <span>Arquitetura</span>
+              <strong>Protocolos, presets e submodos definidos por schema</strong>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero__visual" data-reveal>
+          <div class="hero-panel hero-panel--primary">
+            <div class="hero-panel__header">
+              <span class="eyebrow eyebrow--dark">Platform overview</span>
+              <p>Uma plataforma terapêutica pensada como sistema, não como peça isolada.</p>
+            </div>
+
+            <div class="ecosystem-map" aria-label="Mapa do ecossistema Kinektra">
+              <article class="ecosystem-node ecosystem-node--core">
+                <span>Dispositivo</span>
+                <strong>Eletroestimulação com expansão contínua de modos</strong>
+              </article>
+              <article class="ecosystem-node">
+                <span>Firmware</span>
+                <strong>Controle embarcado, perfis e telemetria</strong>
+              </article>
+              <article class="ecosystem-node">
+                <span>App mobile</span>
+                <strong>Flutter, UX clínica e operação por BLE</strong>
+              </article>
+              <article class="ecosystem-node">
+                <span>Protocolos</span>
+                <strong>Biblioteca dinâmica por modo e submodo</strong>
+              </article>
+              <article class="ecosystem-node ecosystem-node--accent">
+                <span>Release center</span>
+                <strong>Distribuição Android ativa e iOS em preparação</strong>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-panel hero-panel--secondary">
+            <img
+              class="hero-panel__signature"
+              src="assets/images/logo-signature.png"
+              alt="Identidade visual da Kinektra"
+            />
+
+            <div class="hero-metrics">
+              <article>
+                <span>BLE</span>
+                <strong>Conexao com o aparelho e envio de perfis terapêuticos</strong>
+              </article>
+              <article>
+                <span>Real-time</span>
+                <strong>Status operacional e telemetria de sessao em tempo real</strong>
+              </article>
+              <article>
+                <span>Protocol engine</span>
+                <strong>Presets, aliases comerciais e formularios dinâmicos</strong>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stakeholder-strip section-shell" aria-label="Publicos da Kinektra">
+        <article data-reveal>
+          <span>Clinicas</span>
+          <strong>Fluxos terapêuticos mais claros, configuráveis e consistentes.</strong>
+        </article>
+        <article data-reveal>
+          <span>Parceiros</span>
+          <strong>Uma plataforma com leitura de produto, engenharia e escala.</strong>
+        </article>
+        <article data-reveal>
+          <span>Institucional</span>
+          <strong>Uma marca pronta para diálogo comercial, técnico e estratégico.</strong>
+        </article>
+        <article data-reveal>
+          <span>Early adopters</span>
+          <strong>Canal de distribuição contínua para acompanhar releases e evolução.</strong>
+        </article>
+      </section>
+
+      <section class="section-shell section-block" id="empresa">
+        <div class="section-heading" data-reveal>
+          <span class="eyebrow">Sobre a empresa</span>
+          <h2>
+            A Kinektra nasce para tratar tecnologia terapêutica como plataforma
+            de produto, software e experiência.
+          </h2>
+          <p>
+            A empresa está sendo construída como uma medtech orientada a
+            engenharia, clareza operacional e visão de categoria. Em vez de
+            apresentar apenas um aparelho, a Kinektra organiza hardware,
+            firmware, aplicativo e protocolos em um ecossistema terapêutico com
+            identidade própria e capacidade real de evolução.
+          </p>
+        </div>
+
+        <div class="company-layout">
+          <article class="company-card company-card--statement" data-reveal>
+            <span class="company-card__tag">Tese de categoria</span>
+            <h3>
+              Eletroestimulação pode ser apresentada com o rigor clínico de uma
+              medtech e a sofisticação de um produto tecnológico real.
+            </h3>
+            <p>
+              A Kinektra existe para reduzir a distância entre engenharia,
+              interface e uso terapêutico. Isso significa transformar uma cadeia
+              normalmente fragmentada em uma experiência mais coesa, legível e
+              preparada para crescer com firmware, software e repertório de
+              protocolos.
             </p>
-
-            <div class="hero__actions">
-              <a class="button button--primary" href="#manifesto">Ler o manifesto</a>
-              <a class="button button--secondary" href="#portfolio">Conhecer o portfólio</a>
-            </div>
-
-            <div class="hero__proof">
-              <div class="proof-item">
-                <strong>Categoria em redefinição</strong>
-                <span>A Kinektra quer elevar a percepção de valor de TENS, PENS e Neuro-Orteses no mercado.</span>
-              </div>
-              <div class="proof-item">
-                <strong>Visão com ambição</strong>
-                <span>Uma marca pensada para ganhar relevância com produto, narrativa e presença de categoria.</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="hero__panel">
-            <div class="hero-card hero-card--brand">
-              <div class="hero-card__glow"></div>
-              <img
-                class="hero-card__signature"
-                src="assets/images/logo-signature.png"
-                alt="Identidade visual Kinektra"
-              />
-            </div>
-
-            <div class="hero-card hero-card--stats">
-              <div class="stats-row">
-                <article class="stat-card">
-                  <span>Tese</span>
-                  <strong>Therapeutic devices as product</strong>
-                  <p>Dispositivo, software e experiência operando como uma única proposta de valor.</p>
-                </article>
-                <article class="stat-card">
-                  <span>Escala</span>
-                  <strong>Hardware + Software + Brand</strong>
-                  <p>Uma estrutura desenhada para competir por relevância, não apenas por especificação técnica.</p>
-                </article>
-              </div>
-              <div class="note-card">
-                <span class="note-card__label">Brand Thesis</span>
-                <p>
-                  A Kinektra quer parecer aquilo que pretende se tornar:
-                  referência em tecnologia terapêutica com discurso forte de
-                  produto, engenharia consistente e uma linguagem visual pronta
-                  para o mercado que está por vir.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="highlight-strip" aria-label="Destaques principais">
-          <article>
-            <span>Marca</span>
-            <strong>Uma identidade medtech com vocação para liderar categoria</strong>
           </article>
-          <article>
-            <span>Portfólio</span>
-            <strong>TENS, PENS e Neuro-Orteses tratados como família de produto</strong>
+
+          <div class="company-grid">
+            <article class="company-card" data-reveal>
+              <span class="company-card__tag">Quem somos</span>
+              <h3>Uma marca orientada a produto e arquitetura clínica.</h3>
+              <p>
+                Desenvolvemos um ecossistema que combina dispositivo físico,
+                controle mobile e inteligência de configuração para operações
+                terapêuticas mais estruturadas.
+              </p>
+            </article>
+
+            <article class="company-card" data-reveal>
+              <span class="company-card__tag">Por que existimos</span>
+              <h3>Para elevar a leitura da categoria além do equipamento isolado.</h3>
+              <p>
+                O valor da Kinektra está na integração entre tecnologia,
+                operação e linguagem de produto, não apenas em uma lista de
+                especificações.
+              </p>
+            </article>
+
+            <article class="company-card company-card--dark" data-reveal>
+              <span class="company-card__tag company-card__tag--dark">Visao</span>
+              <h3>
+                Construir uma medtech com capacidade de unir dispositivo,
+                firmware, app e protocolos em uma plataforma escalável.
+              </h3>
+              <p>
+                A ambição é formar uma base sólida para clínicas, parceiros e
+                futuras frentes institucionais, com produto cada vez mais claro,
+                confiável e expansível.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell section-block" id="produto">
+        <div class="section-heading" data-reveal>
+          <span class="eyebrow">O produto</span>
+          <h2>
+            Um ecossistema terapêutico em que hardware, firmware, aplicativo e
+            protocolo operam como uma única arquitetura.
+          </h2>
+          <p>
+            O produto Kinektra vai além de um gerador de estimulação. Ele é
+            desenhado como uma plataforma configurável, com camadas técnicas
+            distintas e responsabilidade clara sobre como cada modo, submodo,
+            preset e sessão devem ser apresentados e executados.
+          </p>
+        </div>
+
+        <div class="product-tabs" data-tabs data-reveal>
+          <div class="product-tabs__list" role="tablist" aria-label="Arquitetura do produto">
+            <button
+              class="tab-button is-active"
+              id="tab-device"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="panel-device"
+              data-tab-target="panel-device"
+            >
+              Dispositivo
+            </button>
+            <button
+              class="tab-button"
+              id="tab-firmware"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-firmware"
+              data-tab-target="panel-firmware"
+            >
+              Firmware
+            </button>
+            <button
+              class="tab-button"
+              id="tab-app"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-app"
+              data-tab-target="panel-app"
+            >
+              App clinico
+            </button>
+            <button
+              class="tab-button"
+              id="tab-protocols"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-protocols"
+              data-tab-target="panel-protocols"
+            >
+              Protocolos
+            </button>
+          </div>
+
+          <article
+            class="tab-panel is-active"
+            id="panel-device"
+            role="tabpanel"
+            aria-labelledby="tab-device"
+          >
+            <div class="tab-panel__copy">
+              <span class="tab-panel__eyebrow">Camada fisica</span>
+              <h3>Um dispositivo pensado para operar famílias distintas de estimulação com leitura de produto mais sofisticada.</h3>
+              <p>
+                A base física da Kinektra sustenta uma plataforma de
+                eletroestimulação preparada para múltiplas famílias terapêuticas,
+                evolução de firmware e controle assistido por software. O foco é
+                dar consistência operacional a um dispositivo que não se limita a
+                um único modo ou fluxo rígido.
+              </p>
+            </div>
+            <ul class="tab-panel__list" aria-label="Detalhes do dispositivo">
+              <li>Estrutura compatível com TENS, PENS, EMS, NMES e modos especializados.</li>
+              <li>Integração contínua com firmware em expansão para novos cenários operacionais.</li>
+              <li>Camada de uso pensada para reabilitação funcional, assistência e validação técnica.</li>
+            </ul>
           </article>
-          <article>
-            <span>Futuro</span>
-            <strong>Uma plataforma desenhada para crescer em relevância clínica e comercial</strong>
+
+          <article
+            class="tab-panel"
+            id="panel-firmware"
+            role="tabpanel"
+            aria-labelledby="tab-firmware"
+            hidden
+          >
+            <div class="tab-panel__copy">
+              <span class="tab-panel__eyebrow">Camada embarcada</span>
+              <h3>Firmware como infraestrutura de controle, separação semântica de modos e evolução contínua.</h3>
+              <p>
+                O firmware da Kinektra está sendo expandido para acomodar novas
+                famílias de operação sem colapsar tudo em um único fluxo genérico.
+                Isso permite tratar EMS, NMES, Neuro-Ortese e modos técnicos com
+                semântica própria, organização mais clara e espaço para crescer.
+              </p>
+            </div>
+            <ul class="tab-panel__list" aria-label="Detalhes do firmware">
+              <li>Perfis terapêuticos enviados pelo app com contratos de dados consistentes.</li>
+              <li>Preparação para modos especializados, bancada e variantes assistivas.</li>
+              <li>Telemetria, status e controle de sessão integrados ao canal BLE.</li>
+            </ul>
           </article>
-        </section>
 
-        <section class="section" id="manifesto">
-          <div class="section-heading">
-            <span class="section-label">Manifesto</span>
-            <h2>A Kinektra nasce da ideia de que tecnologia terapêutica não precisa parecer genérica, opaca ou sem ambição.</h2>
-            <p>
-              O que estamos construindo não é apenas um dispositivo. É uma
-              leitura nova para a categoria: produtos terapêuticos com mais
-              inteligência de interface, mais coerência visual, melhor narrativa
-              de mercado e um senso real de evolução. Nosso ponto de partida é
-              clínico. Nossa ambição é cultural: fazer o setor olhar para TENS,
-              PENS e Neuro-Orteses de um jeito mais sofisticado.
-            </p>
-          </div>
-
-          <div class="feature-grid">
-            <article class="feature-card">
-              <span class="feature-card__tag">Categoria</span>
-              <h3>Não queremos competir só por tabela técnica. Queremos mudar percepção.</h3>
+          <article
+            class="tab-panel"
+            id="panel-app"
+            role="tabpanel"
+            aria-labelledby="tab-app"
+            hidden
+          >
+            <div class="tab-panel__copy">
+              <span class="tab-panel__eyebrow">Camada de software</span>
+              <h3>Aplicativo próprio com UX clínica, configuração dinâmica e operação orientada a sessão.</h3>
               <p>
-                Em muitos contextos, a tecnologia terapêutica ainda é vendida
-                como commodity. A Kinektra quer elevar essa conversa com
-                design, posicionamento e produto integrado.
-              </p>
-            </article>
-
-            <article class="feature-card">
-              <span class="feature-card__tag">Experiência</span>
-              <h3>Hardware sozinho não basta. A experiência inteira precisa convencer.</h3>
-              <p>
-                Firmware, interface, navegação, distribuição e forma de
-                apresentar o produto fazem parte do mesmo desenho. Quando isso
-                se conecta, a marca ganha densidade.
-              </p>
-            </article>
-
-            <article class="feature-card feature-card--accent">
-              <span class="feature-card__tag feature-card__tag--light">Missão</span>
-              <h3>Queremos que a Kinektra seja lembrada como a marca que empurrou a categoria para frente.</h3>
-              <p>
-                Essa página passa a comunicar uma empresa em movimento, com
-                desejo explícito de liderar uma nova fase em neuroestimulação e
-                reabilitação funcional.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section" id="brand">
-          <div class="section-heading">
-            <span class="section-label">Tese de produto</span>
-            <h2>Marca forte, engenharia forte e leitura premium precisam nascer juntas.</h2>
-            <p>
-              A Kinektra quer ser percebida como uma empresa capaz de traduzir
-              complexidade técnica em produto desejável. Isso exige uma
-              combinação de eletrônica embarcada, software clínico, design de
-              interface e uma camada de marca que faça sentido para clínicas,
-              parceiros e mercado.
-            </p>
-          </div>
-
-          <div class="feature-grid">
-            <article class="feature-card">
-              <span class="feature-card__tag">Produto</span>
-              <h3>O dispositivo precisa ser tão convincente quanto a história que o acompanha.</h3>
-              <p>
-                Quando um produto técnico é apresentado com clareza, ele deixa
-                de parecer ferramenta isolada e passa a parecer sistema de valor
-                completo.
-              </p>
-            </article>
-
-            <article class="feature-card">
-              <span class="feature-card__tag">Stack</span>
-              <h3>Dispositivo, software e distribuição fazem parte da mesma arquitetura.</h3>
-              <p>
-                A leitura de produto fica mais forte quando hardware, protocolo
-                terapêutico, interface e acesso digital passam a operar como
-                partes do mesmo ecossistema.
-              </p>
-            </article>
-
-            <article class="feature-card feature-card--accent">
-              <span class="feature-card__tag feature-card__tag--light">Percepção</span>
-              <h3>O mercado precisa olhar para a Kinektra e entender que existe algo novo acontecendo.</h3>
-              <p>
-                Nosso posicionamento não tenta parecer maior do que somos hoje.
-                Ele tenta comunicar com honestidade o tamanho do futuro que
-                estamos tentando construir.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section section--platform" id="portfolio">
-          <div class="platform-layout">
-            <div class="platform-copy">
-              <span class="section-label">Portfólio</span>
-              <h2>Três frentes de produto para sustentar uma visão mais ampla de tecnologia terapêutica.</h2>
-              <p>
-                O portfólio da Kinektra aponta para um conjunto de dispositivos
-                e experiências digitais que podem atender dores diferentes, mas
-                compartilham a mesma visão de tecnologia clínica: produto bem
-                construído, linguagem clara, distribuição moderna e percepção
-                de valor real.
+                O aplicativo Flutter já suporta conexão Bluetooth, envio de
+                perfis, início e parada de sessão, leitura de status em tempo
+                real e organização de protocolos por modo e submodo. A proposta é
+                oferecer uma experiência clara para operação terapêutica e para a
+                evolução futura do ecossistema.
               </p>
             </div>
+            <ul class="tab-panel__list" aria-label="Detalhes do aplicativo">
+              <li>Biblioteca de protocolos com presets, aliases comerciais e formulários dinâmicos.</li>
+              <li>Fluxos de configuração adaptados por família terapêutica e submodo.</li>
+              <li>Canal mobile para demos, validação e distribuição Android contínua.</li>
+            </ul>
+          </article>
 
-            <div class="platform-grid">
-              <article class="platform-card">
-                <span class="platform-card__eyebrow">TENS</span>
-                <h3>Analgesia com linguagem de produto, clareza operacional e mais valor percebido.</h3>
-                <p>
-                  A Kinektra quer tirar o TENS da imagem de equipamento
-                  genérico e reposicioná-lo como uma experiência terapêutica
-                  mais inteligente, mais bem apresentada e mais confiável para o
-                  uso clínico e comercial.
-                </p>
-              </article>
-
-              <article class="platform-card">
-                <span class="platform-card__eyebrow">PENS</span>
-                <h3>Uma frente especializada para técnicas percutâneas, repertório clínico e autoridade técnica.</h3>
-                <p>
-                  O PENS aparece como parte de uma estratégia maior: ampliar o
-                  portfólio com produtos mais especializados, mantendo unidade
-                  visual, operação digital consistente e discurso técnico mais
-                  forte.
-                </p>
-              </article>
-
-              <article class="platform-card platform-card--dark">
-                <span class="platform-card__eyebrow platform-card__eyebrow--light">
-                  Neuro-Orteses
-                </span>
-                <h3>Suporte neuromotor e treino funcional com narrativa de tecnologia de próxima geração.</h3>
-                <p>
-                  A Kinektra quer posicionar Neuro-Orteses como um território de
-                  alto valor: dispositivos com inteligência de interface,
-                  parâmetros terapêuticos organizados e uma narrativa forte de
-                  inovação aplicada à reabilitação.
-                </p>
-              </article>
+          <article
+            class="tab-panel"
+            id="panel-protocols"
+            role="tabpanel"
+            aria-labelledby="tab-protocols"
+            hidden
+          >
+            <div class="tab-panel__copy">
+              <span class="tab-panel__eyebrow">Inteligencia de protocolo</span>
+              <h3>Arquitetura baseada em schema para organizar parâmetros, presets e evolução de produto com mais disciplina.</h3>
+              <p>
+                Em vez de depender de telas rígidas e parâmetros espalhados, a
+                Kinektra estrutura os modos de forma configurável. Isso ajuda a
+                sustentar novos submodos, melhorias de UX e ampliação de
+                capacidades sem reescrever toda a experiência a cada ciclo.
+              </p>
             </div>
-          </div>
-        </section>
+            <ul class="tab-panel__list" aria-label="Detalhes dos protocolos">
+              <li>Schema layer para modos, submodos, presets e aliases comerciais.</li>
+              <li>Separação semântica entre famílias terapêuticas com propósito distinto.</li>
+              <li>Base mais sólida para escalabilidade de firmware, software e catálogo clínico.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-        <section class="section" id="execution">
-          <div class="section-heading">
-            <span class="section-label">Execução</span>
-            <h2>Uma empresa que quer crescer com disciplina de produto, clareza técnica e visão de longo prazo.</h2>
+      <section class="section-shell section-block" id="modos">
+        <div class="section-heading" data-reveal>
+          <span class="eyebrow">Capacidades e modos</span>
+          <h2>
+            Famílias terapêuticas e técnicas apresentadas com clareza, propósito
+            e separação semântica.
+          </h2>
+          <p>
+            A plataforma não trata todos os cenários como se fossem equivalentes.
+            Cada família existe com seu próprio contexto operacional, o que ajuda
+            a dar mais precisão à interface, aos protocolos e à expansão futura
+            do firmware.
+          </p>
+        </div>
+
+        <div class="modes-grid">
+          <article class="mode-card" data-reveal>
+            <span class="mode-card__tag">TENS</span>
+            <h3>Analgesia com parametrização clara para rotinas terapêuticas configuráveis.</h3>
+          </article>
+          <article class="mode-card" data-reveal>
+            <span class="mode-card__tag">PENS</span>
+            <h3>Abordagem percutânea com controle preciso de parâmetros e organização por protocolo.</h3>
+          </article>
+          <article class="mode-card" data-reveal>
+            <span class="mode-card__tag">EMS</span>
+            <h3>Estimulação muscular com ajustes voltados a ativação e sessões controladas.</h3>
+          </article>
+          <article class="mode-card" data-reveal>
+            <span class="mode-card__tag">NMES</span>
+            <h3>Estimulação neuromuscular tratada como família própria para fluxos funcionais específicos.</h3>
+          </article>
+          <article class="mode-card" data-reveal>
+            <span class="mode-card__tag">Neuro-Ortese</span>
+            <h3>Assistência funcional com parâmetros coordenados para contextos neuromotores e assistivos.</h3>
+          </article>
+          <article class="mode-card" data-reveal>
+            <span class="mode-card__tag">Pseudo-IF</span>
+            <h3>Composição configurável de frequência e modulação definida por software.</h3>
+          </article>
+          <article class="mode-card" data-reveal>
+            <span class="mode-card__tag">Russian</span>
+            <h3>Família inspirada em correntes do tipo Russian com envelopes organizados por protocolo.</h3>
+          </article>
+          <article class="mode-card mode-card--accent" data-reveal>
+            <span class="mode-card__tag mode-card__tag--dark">Diagnostico / Bancada</span>
+            <h3>Modo técnico para validação, inspeção operacional e testes de bancada do ecossistema.</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell section-block section-block--dark" id="software">
+        <div class="section-heading section-heading--light" data-reveal>
+          <span class="eyebrow eyebrow--dark">Software e app</span>
+          <h2>
+            O aplicativo é a camada que organiza operação, protocolo, telemetria
+            e experiência clínica da plataforma.
+          </h2>
+          <p>
+            A Kinektra já possui app próprio em Flutter, integração por BLE,
+            biblioteca de protocolos, telemetria, envio de perfis terapêuticos,
+            presets dinâmicos e formulários adaptados por modo e submodo. A
+            lógica do software foi pensada para evoluir junto com o firmware e
+            com a maturidade do produto.
+          </p>
+        </div>
+
+        <div class="software-layout">
+          <article class="software-card software-card--feature" data-reveal>
+            <span class="software-card__eyebrow">Clinical control layer</span>
+            <h3>Uma UX clínica construída para simplificar complexidade sem diluir engenharia.</h3>
             <p>
-              O que sustenta a Kinektra não é uma localização específica, e sim
-              a forma como a empresa quer executar: com proximidade de teste,
-              ciclos curtos de iteração, fortalecimento de engenharia e uma
-              ambição consistente de transformar tecnologia terapêutica em
-              produto com identidade clara.
+              Em vez de esconder a sofisticação do sistema, o software organiza
+              essa complexidade em uma experiência mais legível: selecionar modo,
+              configurar submodo, aplicar preset, enviar perfil, iniciar sessão e
+              acompanhar o estado do dispositivo com mais clareza.
             </p>
-          </div>
+          </article>
 
-          <div class="feature-grid">
-            <article class="feature-card">
-              <span class="feature-card__tag">Método</span>
-              <h3>Produto forte nasce de iteração contínua, leitura de mercado e foco real em execução.</h3>
-              <p>
-                A Kinektra quer evoluir com aprendizado constante, proximidade
-                de validação e capacidade de transformar feedback em produto
-                melhor, não apenas em discurso.
-              </p>
+          <div class="software-grid">
+            <article class="software-card" data-reveal>
+              <span class="software-card__eyebrow">BLE</span>
+              <h3>Conexao com o aparelho e troca de dados em fluxo contínuo.</h3>
             </article>
-
-            <article class="feature-card">
-              <span class="feature-card__tag">Proximidade</span>
-              <h3>Clínica, operação e desenvolvimento precisam conversar no mesmo ritmo.</h3>
-              <p>
-                Quanto mais curta a distância entre uso real, teste e melhoria,
-                maior a chance de a tecnologia terapêutica evoluir com mais
-                confiança e mais valor percebido.
-              </p>
+            <article class="software-card" data-reveal>
+              <span class="software-card__eyebrow">Telemetria</span>
+              <h3>Status operacional, feedback de sessão e leitura em tempo real.</h3>
             </article>
-
-            <article class="feature-card feature-card--accent">
-              <span class="feature-card__tag feature-card__tag--light">Escala</span>
-              <h3>O objetivo é crescer com densidade de produto e presença de categoria.</h3>
-              <p>
-                A Kinektra quer construir relevância sustentável: primeiro com
-                produto, depois com reputação, e finalmente com a capacidade de
-                ocupar espaço real em um mercado cada vez mais exigente.
-              </p>
+            <article class="software-card" data-reveal>
+              <span class="software-card__eyebrow">Protocol library</span>
+              <h3>Biblioteca terapêutica com presets, aliases e repertório expansível.</h3>
+            </article>
+            <article class="software-card" data-reveal>
+              <span class="software-card__eyebrow">Schema-driven UI</span>
+              <h3>Formulários e parâmetros montados dinamicamente por modo e submodo.</h3>
+            </article>
+            <article class="software-card" data-reveal>
+              <span class="software-card__eyebrow">Session flow</span>
+              <h3>Envio de perfis, start/stop de sessão e acompanhamento centralizado.</h3>
+            </article>
+            <article class="software-card" data-reveal>
+              <span class="software-card__eyebrow">Scalability</span>
+              <h3>Base pronta para crescer com novos modos, firmware e distribuição.</h3>
             </article>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="section section--platform" id="future">
-          <div class="platform-layout">
-            <div class="platform-copy">
-              <span class="section-label">Futuro</span>
-              <h2>Estamos construindo uma empresa que quer crescer como referência, não apenas como fornecedora.</h2>
-              <p>
-                O futuro da Kinektra passa por ampliar portfólio, fortalecer a
-                camada de software, sofisticar a experiência terapêutica e
-                transformar distribuição digital em ativo de marca. A visão é
-                clara: construir uma medtech brasileira com identidade própria,
-                discurso contemporâneo e presença crescente no mercado.
-              </p>
-            </div>
+      <section class="section-shell section-block" id="diferenciais">
+        <div class="section-heading" data-reveal>
+          <span class="eyebrow">Diferenciais</span>
+          <h2>
+            O diferencial da Kinektra está na disciplina arquitetural com que o
+            ecossistema está sendo montado.
+          </h2>
+          <p>
+            A plataforma combina camadas físicas e digitais sem reduzir tudo a
+            um aparelho genérico. Isso cria uma base mais convincente para
+            produto, evolução técnica e relacionamento com o mercado.
+          </p>
+        </div>
 
-            <div class="platform-grid">
-              <article class="platform-card">
-                <span class="platform-card__eyebrow">Clinical OS</span>
-                <h3>Software clínico como centro de coordenação da experiência.</h3>
-                <p>
-                  Mais do que controlar parâmetros, o aplicativo pode se tornar
-                  a camada que organiza protocolos, operação e inteligibilidade
-                  da terapia.
-                </p>
-              </article>
+        <div class="differentials-grid">
+          <article class="differential-card" data-reveal>
+            <span>01</span>
+            <h3>Arquitetura orientada a protocolo</h3>
+            <p>Parâmetros, presets e submodos organizados para evoluir com mais coerência.</p>
+          </article>
+          <article class="differential-card" data-reveal>
+            <span>02</span>
+            <h3>Modos semanticamente separados</h3>
+            <p>EMS, NMES, Neuro-Ortese e famílias técnicas tratados com identidade própria.</p>
+          </article>
+          <article class="differential-card" data-reveal>
+            <span>03</span>
+            <h3>Hardware, firmware e app integrados</h3>
+            <p>Uma única visão de produto conectando dispositivo, software e operação terapêutica.</p>
+          </article>
+          <article class="differential-card" data-reveal>
+            <span>04</span>
+            <h3>Telemetria e controle em tempo real</h3>
+            <p>Operação assistida por software com leitura de status durante a sessão.</p>
+          </article>
+          <article class="differential-card" data-reveal>
+            <span>05</span>
+            <h3>Escalabilidade de firmware</h3>
+            <p>Base preparada para incorporar novos modos, ajustes e cenários especializados.</p>
+          </article>
+          <article class="differential-card differential-card--accent" data-reveal>
+            <span>06</span>
+            <h3>Distribuicao como camada de produto</h3>
+            <p>Central de releases conectada ao ecossistema para demos, validação e operação contínua.</p>
+          </article>
+        </div>
+      </section>
 
-              <article class="platform-card">
-                <span class="platform-card__eyebrow">Device Design</span>
-                <h3>Dispositivos com mais clareza de uso, mais confiança e mais desejo de marca.</h3>
-                <p>
-                  O objetivo é fazer hardware terapêutico parecer sofisticado,
-                  consistente e pronto para competir por relevância real.
-                </p>
-              </article>
-
-              <article class="platform-card platform-card--dark">
-                <span class="platform-card__eyebrow platform-card__eyebrow--light">
-                  Market Expansion
-                </span>
-                <h3>Uma empresa brasileira com discurso forte o bastante para ganhar escala nacional.</h3>
-                <p>
-                  O plano não é apenas distribuir tecnologia. É construir uma
-                  presença de marca capaz de abrir espaço em clínicas, parcerias
-                  comerciais e futuras frentes de expansão.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="access">
-          <div class="section-heading section-heading--compact">
-            <span class="section-label">Acesso e releases</span>
-            <h2>Distribuição digital como infraestrutura de relacionamento, teste e operação.</h2>
+      <section class="section-shell section-block" id="download">
+        <div class="download-layout">
+          <div class="download-copy" data-reveal>
+            <span class="eyebrow">Download</span>
+            <h2>Uma central de distribuição integrada ao site e pronta para acompanhar a evolução do produto.</h2>
             <p>
-              O portal continua mantendo uma área de acesso para builds, mas ela
-              passa a funcionar como extensão do ecossistema Kinektra. O centro
-              da página é a marca; a distribuição fica como suporte para quem
-              precisa testar, operar ou acompanhar a evolução das releases.
+              A área de download continua simples de atualizar, mas agora faz
+              parte de uma leitura institucional mais forte. Ela consolida a
+              release Android atual, o status do canal iOS e a visão de
+              distribuição contínua da Kinektra para testes, demonstrações e
+              operação acompanhada.
             </p>
+
+            <div class="download-notes">
+              <article>
+                <span>Android</span>
+                <strong>Release ativa alimentada por <code>assets/data/releases.json</code>.</strong>
+              </article>
+              <article>
+                <span>Distribuicao</span>
+                <strong>Link público preservado para <code>downloads/app-release.apk</code>.</strong>
+              </article>
+              <article>
+                <span>iPhone</span>
+                <strong>Canal exibido como em preparação até existir link oficial.</strong>
+              </article>
+            </div>
           </div>
 
           <div class="downloads-grid" aria-label="Status dos aplicativos">
-            <article class="download-card download-card--android" id="android-card">
-              <div class="download-card__header">
+            <article class="release-card release-card--android" id="android-card" data-reveal>
+              <div class="release-card__header">
                 <span class="pill">Android</span>
                 <span class="status-badge" id="android-status">Carregando</span>
               </div>
-              <h3>Acesso Android para parceiros</h3>
-              <p class="download-card__text">
-                Canal atual de distribuição para testes acompanhados, operação
-                interna, demos e validações da camada mobile da Kinektra.
+              <h3>Release Android atual</h3>
+              <p class="release-card__text">
+                Canal principal para distribuição do app Kinektra em testes
+                acompanhados, operação interna e validação de campo.
               </p>
-              <dl class="meta-list">
+              <dl class="release-meta">
                 <div>
-                  <dt>Versão</dt>
+                  <dt>Versao</dt>
                   <dd id="android-version">-</dd>
                 </div>
                 <div>
-                  <dt>Publicado em</dt>
+                  <dt>Data</dt>
                   <dd id="android-date">-</dd>
                 </div>
               </dl>
-              <p class="download-card__note" id="android-notes">-</p>
+              <p class="release-card__note" id="android-notes">-</p>
               <a
                 class="button button--primary button--full button--disabled"
                 id="android-download"
@@ -408,20 +641,20 @@
               </a>
             </article>
 
-            <article class="download-card download-card--ios" id="ios-card">
-              <div class="download-card__header">
-                <span class="pill">iPhone</span>
+            <article class="release-card release-card--ios" id="ios-card" data-reveal>
+              <div class="release-card__header">
+                <span class="pill pill--soft">iPhone</span>
                 <span class="status-badge status-badge--soft" id="ios-status">
                   Carregando
                 </span>
               </div>
-              <h3>Roadmap iPhone</h3>
-              <p class="download-card__text">
-                O acompanhamento do canal iOS continua visível aqui para manter
-                uma leitura única do ecossistema Kinektra, das prioridades
-                atuais e da preparação dos próximos passos de distribuição.
+              <h3>Canal iOS em preparação</h3>
+              <p class="release-card__text">
+                A presença iPhone permanece visível para manter a leitura de
+                plataforma completa enquanto o canal público oficial ainda está
+                sendo preparado.
               </p>
-              <dl class="meta-list">
+              <dl class="release-meta">
                 <div>
                   <dt>Canal</dt>
                   <dd id="ios-channel">-</dd>
@@ -431,28 +664,74 @@
                   <dd id="ios-summary">-</dd>
                 </div>
               </dl>
-              <p class="download-card__note" id="ios-notes">-</p>
-              <div class="download-card__callout">
+              <p class="release-card__note" id="ios-notes">-</p>
+              <div class="release-card__callout">
                 <strong>Próxima etapa</strong>
                 <p>
-                  Quando o canal oficial da Apple estiver pronto, esta mesma
-                  área poderá consolidar o acesso público sem mudar o discurso
-                  principal da marca.
+                  Quando o link público estiver pronto, esta mesma área poderá
+                  concentrar a distribuição sem alterar a estrutura do portal.
                 </p>
               </div>
             </article>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="footer-card">
-          <div>
-            <span class="section-label">Kinektra</span>
-            <h2>Uma medtech desenhada para deixar marca na próxima fase de TENS, PENS e Neuro-Orteses.</h2>
+      <section class="section-shell section-block" id="contato">
+        <div class="contact-panel" data-reveal>
+          <div class="contact-panel__copy">
+            <span class="eyebrow eyebrow--dark">Contato e parcerias</span>
+            <h2>Aberta a conversas comerciais, clínicas, técnicas e institucionais.</h2>
+            <p>
+              A Kinektra está construindo produto, software e ecossistema. Se o
+              seu interesse passa por demonstrações, parceria clínica, avaliação
+              técnica, distribuição ou aproximação institucional, este é o ponto
+              de contato para iniciar a conversa.
+            </p>
           </div>
-          <a class="button button--primary" href="#manifesto">Voltar ao manifesto</a>
-        </section>
-      </main>
-    </div>
+
+          <div class="contact-panel__actions">
+            <div class="contact-tags" aria-label="Tipos de contato">
+              <span>Comercial</span>
+              <span>Clínico</span>
+              <span>Técnico</span>
+              <span>Institucional</span>
+            </div>
+            <a class="button button--primary" href="mailto:contato@kinektra.com">
+              contato@kinektra.com
+            </a>
+            <a class="button button--secondary" href="#download">
+              Acessar central de releases
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-shell">
+        <div class="footer-brand">
+          <img src="assets/images/logo-mark.png" alt="Marca Kinektra" />
+          <div>
+            <strong>Kinektra</strong>
+            <p>
+              Tecnologia terapêutica com visão de produto, firmware, software
+              clínico e distribuição contínua.
+            </p>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Navegacao do rodape">
+          <a href="#empresa">Empresa</a>
+          <a href="#produto">Produto</a>
+          <a href="#software">Software</a>
+          <a href="#download">Download</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <p class="footer-copy">Kinektra Therapeutic Technology Platform</p>
+      </div>
+    </footer>
 
     <script src="assets/js/app.js" defer></script>
   </body>
