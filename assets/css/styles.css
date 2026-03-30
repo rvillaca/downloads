@@ -139,6 +139,24 @@ code {
   margin: 0 auto;
 }
 
+.header-shell > *,
+.hero > *,
+.hero-panel--secondary > *,
+.company-layout > *,
+.company-grid > *,
+.software-layout > *,
+.software-grid > *,
+.download-layout > *,
+.downloads-grid > *,
+.differentials-grid > *,
+.stakeholder-strip > *,
+.modes-grid > *,
+.contact-panel > *,
+.footer-shell > *,
+.tab-panel > * {
+  min-width: 0;
+}
+
 .header-shell {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -203,6 +221,7 @@ code {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -249,6 +268,8 @@ code {
 .header-actions {
   display: inline-flex;
   align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -272,6 +293,8 @@ code {
   border-radius: 16px;
   border: 1px solid transparent;
   font-weight: 700;
+  text-align: center;
+  white-space: normal;
   transition:
     transform var(--transition),
     box-shadow var(--transition),
@@ -383,6 +406,7 @@ code {
   font-size: clamp(3.5rem, 6vw, 6rem);
   line-height: 0.93;
   letter-spacing: -0.06em;
+  text-wrap: balance;
 }
 
 .hero__lead,
@@ -449,6 +473,7 @@ code {
   font-family: "Sora", sans-serif;
   font-size: 1rem;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .hero__visual {
@@ -539,6 +564,7 @@ code {
   font-family: "Sora", sans-serif;
   font-size: 1.18rem;
   line-height: 1.38;
+  overflow-wrap: anywhere;
 }
 
 .hero-panel__signature {
@@ -670,6 +696,7 @@ code {
   font-size: 1.56rem;
   line-height: 1.18;
   letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
 }
 
 .company-card p,
@@ -764,6 +791,7 @@ code {
   color: var(--ink-soft);
   font-weight: 500;
   line-height: 1.6;
+  overflow-wrap: anywhere;
 }
 
 .modes-grid {
@@ -999,6 +1027,7 @@ code {
   color: var(--ink);
   font-family: "Sora", sans-serif;
   font-size: 1rem;
+  overflow-wrap: anywhere;
 }
 
 .contact-panel {
@@ -1147,6 +1176,16 @@ code {
 }
 
 @media (max-width: 1180px) {
+  .header-shell {
+    grid-template-columns: auto 1fr;
+  }
+
+  .site-nav,
+  .header-actions {
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+  }
+
   .hero,
   .company-layout,
   .software-layout,

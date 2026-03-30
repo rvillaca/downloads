@@ -12,7 +12,7 @@ async function loadReleases() {
     });
 
     if (!response.ok) {
-      throw new Error("Nao foi possivel carregar releases.json");
+      throw new Error("Não foi possível carregar releases.json");
     }
 
     const data = await response.json();
@@ -25,9 +25,9 @@ async function loadReleases() {
 
 function renderAndroid(android) {
   setText("android-status", android.status || "Sem build");
-  setText("android-version", android.version || "Nao informado");
-  setText("android-date", android.publishedAt || "Nao informado");
-  setText("android-notes", android.notes || "Sem observacoes.");
+  setText("android-version", android.version || "Não informado");
+  setText("android-date", android.publishedAt || "Não informado");
+  setText("android-notes", android.notes || "Sem observações.");
 
   const link = document.getElementById("android-download");
   const hasDownload = Boolean(android.downloadUrl);
@@ -47,22 +47,22 @@ function renderAndroid(android) {
     link.setAttribute("aria-disabled", "true");
     link.setAttribute("tabindex", "-1");
     link.classList.add("button--disabled");
-    link.textContent = android.ctaLabel || "Download indisponivel";
+    link.textContent = android.ctaLabel || "Download indisponível";
   }
 }
 
 function renderIos(ios) {
-  setText("ios-status", ios.status || "Em preparacao");
-  setText("ios-channel", ios.channel || "Nao definido");
-  setText("ios-summary", ios.summary || "Aguardando distribuicao");
-  setText("ios-notes", ios.notes || "Sem observacoes.");
+  setText("ios-status", ios.status || "Em preparação");
+  setText("ios-channel", ios.channel || "Não definido");
+  setText("ios-summary", ios.summary || "Aguardando distribuição");
+  setText("ios-notes", ios.notes || "Sem observações.");
 }
 
 function renderFallback(error) {
   setText("android-status", "Erro");
-  setText("android-notes", "Nao foi possivel carregar os dados do portal.");
+  setText("android-notes", "Não foi possível carregar os dados do portal.");
   setText("ios-status", "Erro");
-  setText("ios-notes", "Nao foi possivel carregar os dados do portal.");
+  setText("ios-notes", "Não foi possível carregar os dados do portal.");
   console.error(error);
 }
 
