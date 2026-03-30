@@ -346,7 +346,7 @@ code {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.14fr) minmax(360px, 0.86fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
   gap: 40px;
   align-items: center;
   padding-top: 48px;
@@ -403,12 +403,12 @@ code {
   max-width: 100%;
   margin: 18px 0 0;
   color: var(--ink);
-  font-size: clamp(3rem, 5.2vw, 5.3rem);
-  line-height: 0.95;
+  font-size: clamp(2.8rem, 4.8vw, 4.9rem);
+  line-height: 0.96;
   letter-spacing: -0.06em;
   text-wrap: balance;
   hyphens: auto;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 .hero__lead,
