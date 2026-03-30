@@ -346,8 +346,8 @@ code {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.04fr) minmax(360px, 0.96fr);
-  gap: 34px;
+  grid-template-columns: minmax(0, 1.14fr) minmax(360px, 0.86fr);
+  gap: 40px;
   align-items: center;
   padding-top: 48px;
 }
@@ -400,13 +400,15 @@ code {
 }
 
 .hero h1 {
-  max-width: 11ch;
+  max-width: 100%;
   margin: 18px 0 0;
   color: var(--ink);
-  font-size: clamp(3.5rem, 6vw, 6rem);
-  line-height: 0.93;
+  font-size: clamp(3rem, 5.2vw, 5.3rem);
+  line-height: 0.95;
   letter-spacing: -0.06em;
   text-wrap: balance;
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
 
 .hero__lead,
@@ -1196,7 +1198,7 @@ code {
   }
 
   .hero h1 {
-    max-width: 12ch;
+    max-width: 100%;
   }
 
   .stakeholder-strip,
