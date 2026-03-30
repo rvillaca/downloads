@@ -5,12 +5,12 @@
     "publishedAt": "30 de março de 2026",
     "downloadUrl": "downloads/app-release.apk",
     "ctaLabel": "Baixar build Android",
-    "notes": "Build Android atual da Kinektra com validacao BLE expandida, modos modernos por schema, envio com fallback legado, telemetria em tempo real e correcoes no fluxo de sessao."
+    "notes": "Versão Android atual da Kinektra com experiência mobile ativa, conexão com o dispositivo, biblioteca de protocolos, controle de sessão e telemetria em tempo real."
   },
   "ios": {
     "status": "Em preparação",
     "channel": "Distribuição futura",
     "summary": "Sem link público no momento",
-    "notes": "A camada iPhone será incorporada ao ecossistema de distribuição da Kinektra assim que o canal oficial estiver pronto."
+    "notes": "A experiência para iPhone será incorporada ao ecossistema Kinektra assim que o canal público oficial estiver disponível."
   }
 }
