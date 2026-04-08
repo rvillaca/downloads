@@ -1,16 +1,16 @@
 {
   "android": {
-    "status": "Acesso parceiro",
+    "status": "Release disponível",
     "version": "1.0.0+1",
-    "publishedAt": "30 de março de 2026",
+    "publishedAt": "8 de abril de 2026",
     "downloadUrl": "downloads/app-release.apk",
-    "ctaLabel": "Baixar build Android",
-    "notes": "Versão Android atual da Kinektra com experiência mobile ativa, conexão com o dispositivo, biblioteca de protocolos, controle de sessão e telemetria em tempo real."
+    "ctaLabel": "Baixar APK Android",
+    "notes": "Build Android alinhada ao app Apple privado, com conexao Bluetooth ao dispositivo, biblioteca terapeutica ativa, controle de sessao, persistencia local e telemetria em tempo real."
   },
   "ios": {
-    "status": "Em preparação",
-    "channel": "Distribuição futura",
-    "summary": "Sem link público no momento",
-    "notes": "A experiência para iPhone será incorporada ao ecossistema Kinektra assim que o canal público oficial estiver disponível."
+    "status": "Build privado ativo",
+    "channel": "Instalação interna",
+    "summary": "Sem link publico no momento",
+    "notes": "A versao para iPhone esta operacional em distribuicao privada e segue sem link publico de download."
   }
 }
